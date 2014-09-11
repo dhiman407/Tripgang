@@ -8,5 +8,10 @@
     <string name="title_activity_tripslist">Tripslist</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="add_new_trip">Add New Trip</string>
+    <string name="title_activity_create_trip">CreateTrip</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
 
 </resources>

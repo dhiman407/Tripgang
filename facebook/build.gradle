@@ -7,22 +7,21 @@ dependencies {
 
 android {
     compileSdkVersion 16
-    buildToolsVersion "20.0.0"
-
+    buildToolsVersion '20.0.0'
     defaultConfig {
-        minSdkVersion 9
+        minSdkVersion 14
         targetSdkVersion 16
     }
-
     lintOptions {
         abortOnError false
     }
-
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
             java.srcDirs = ['src']
             res.srcDirs = ['res']
         }
+    }
+    productFlavors {
     }
 }
