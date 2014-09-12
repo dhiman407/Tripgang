@@ -33,6 +33,14 @@
             android:name=".Tripslist"
             android:label="@string/title_activity_tripslist" >
         </activity>
+        <activity
+            android:name=".CreateTrip"
+            android:label="@string/title_activity_create_trip"
+            android:parentActivityName=".Tripslist" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.ninja.tripgang.Tripslist" />
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

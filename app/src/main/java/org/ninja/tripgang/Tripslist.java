@@ -1,5 +1,7 @@
 package org.ninja.tripgang;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,7 +11,7 @@ import android.widget.ListView;
 
 
 public class Tripslist extends ActionBarActivity {
-
+    private Context context = this;
     String[] tripArray = {"Tahoe", "Mount Shasta", "Caramel", "Crator Lake"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +49,7 @@ public class Tripslist extends ActionBarActivity {
     }
 
     private void openNewTrip(){
-
+        Intent intent = new Intent(context,CreateTrip.class);
+        startActivity(intent);
     }
 }
