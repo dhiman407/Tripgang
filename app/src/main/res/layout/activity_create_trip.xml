@@ -8,9 +8,18 @@
     <fragment
         android:name="org.ninja.tripgang.TripType"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/trip_type_fragment">
+        android:layout_height="351dp"
+        android:id="@+id/trip_type_fragment"
+        tools:layout="@layout/fragment_trip_type">
 
         </fragment>
+    <fragment
+        android:name="org.ninja.tripgang.TripDestination"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:id="@+id/trip_type_destination"
+        tools:layout="@layout/fragment_trip_destination">
+
+    </fragment>
 
 </LinearLayout>
