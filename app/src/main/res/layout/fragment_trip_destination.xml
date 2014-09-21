@@ -2,23 +2,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="org.ninja.tripgang.TripDestination">
+
+
 
     <!-- TODO: Update blank fragment layout -->
 
-
-
     <EditText
-        android:layout_width="275dp"
+        android:layout_width="match_parent"
         android:layout_height="65dp"
         android:inputType="text"
-        android:id="@+id/editText2" />
+        android:layout_weight="0"
+        android:id="@+id/destination_txt" />
 
     <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="182dp"
-        android:id="@+id/listView"
-        android:visibility="invisible"
-        android:layout_gravity="center_vertical" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/tripsuggestions" />
+
 
 </LinearLayout>
